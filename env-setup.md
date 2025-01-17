@@ -23,14 +23,12 @@
     - nano llama_env_setup.sh
 4. Paste script provided (located in llama_env_setup.sh)
 ```
-{
 #!/bin/bash
 module load python gcc cuda cudnn
 
 # Create and source the virtual environment
 python -m venv myenv
 source myenv/bin/activate
-}
 ```
 5. Exit (ctrl+x), y
 6. Run the command **chmod +x llama_env_setup.sh**
