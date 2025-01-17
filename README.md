@@ -12,7 +12,7 @@ This repository contains the documentation and code used in the generative AI tu
 
 # Build llama.cpp framework (Shell)
 * After completing the environment setup, run each of the commands below in your environment (or run [llama_cpp_setup.sh](llama_cpp_setup.sh))
-Shell
+    * Shell
 ```
 git clone https://github.com/ggerganov/llama.cpp/
 cd llama.cpp
