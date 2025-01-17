@@ -21,7 +21,7 @@
     - mkdir llm-testing
     - cd llm-testing
     - nano llama_env_setup.sh
-4. Paste script provided (located in llama_env_setup.sh)
+4. Paste script below (located in llama_env_setup.sh)
 ```
 #!/bin/bash
 module load python gcc cuda cudnn
