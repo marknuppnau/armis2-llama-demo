@@ -8,7 +8,7 @@ This repository contains the documentation and code used in the generative AI tu
 * Some experience with Python and Shell (command line interface)
 
 # Environment Setup
-
+* Follow the instructions in [environment setup](env-setup.md)
 # Demo1: OpenAI API Framework
 
 # Demo2: Langchain Framework
