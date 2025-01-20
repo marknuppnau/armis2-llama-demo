@@ -58,6 +58,15 @@ cd ..
 ```
 
 # Download synthetic notes to use with the demonstrations below
+**Shell**
+```
+mkdir notes
+cd notes
+wget https://huggingface.co/datasets/starmpcc/Asclepius-Synthetic-Clinical-Notes/resolve/main/synthetic.csv?download=true
+mv 'synthetic.csv?download=true' synthetic.csv
+cd ..
+```
+**Jupyter Notebook**
 ```
 %mkdir notes
 %cd notes
