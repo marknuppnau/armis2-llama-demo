@@ -132,4 +132,41 @@ overall_chain = (
     | llm_chain3
 )
 ```
+### Create a list of notes
+```
+filename = "notes/synthetic.csv"
+target_column_name = "note"
 
+notes = []
+
+with open(filename, "r", newline="", encoding="utf-8") as csvfile:
+    reader = csv.reader(csvfile)
+    
+    # Read the header row to find the index of the target column
+    header = next(reader)
+    target_index = header.index(target_column_name)
+    
+    # Iterate through rows and collect up to 20 values
+    for i, row in enumerate(reader):
+        if i == 20:  # Stop after 20 rows
+            break
+        notes.append(row[target_index])
+```
+### View the first note
+```
+notes[0]
+```
+
+### Invoke the overall chain
+```
+prim_dxs = []
+
+for note in notes:
+    prim_dx_reasoning = overall_chain.invoke({"clinical_note": note}, stop=['<|eot_id|>'])
+    prim_dxs.append(prim_dx_reasoning)
+```
+
+### View the final output for the first note
+```
+prim_dxs[0]
+```
