@@ -10,8 +10,20 @@ This repository contains the documentation and code used in the generative AI tu
 # Environment Setup
 * Follow the instructions in [environment setup](env-setup.md)
 
-# Build llama.cpp framework (Shell)
-After completing the environment setup, run each of the commands below in your environment (or run [llama_cpp_setup.sh](llama_cpp_setup.sh))\
+# Run
+Either start from scratch and follow the steps below or use the jupyter notebook
+
+# Install packages
+After completing the environment setup, run each of the commands below in your environment\
+**Shell**
+CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python
+pip install openai langchain langchain-community
+**Jupyter Notebook**
+!CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python
+!pip install openai langchain langchain-community
+
+# Build llama.cpp framework
+Clone the llama.cpp repository and build (or run [llama_cpp_setup.sh](llama_cpp_setup.sh))\
 **Shell**
 ```
 git clone https://github.com/ggerganov/llama.cpp/
@@ -47,3 +59,5 @@ cd ..
 # Demo1: OpenAI API Framework
 
 # Demo2: Langchain Framework
+* Follow the instructions in 
+
