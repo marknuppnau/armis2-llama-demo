@@ -59,5 +59,5 @@ cd ..
 # Demo1: OpenAI API Framework
 
 # Demo2: Langchain Framework
-* Follow the instructions in 
+* Follow the instructions in [langchain demo](langchain-demo.md)
 
