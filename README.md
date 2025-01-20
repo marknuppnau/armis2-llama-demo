@@ -16,11 +16,15 @@ Either start from scratch and follow the steps below or use the jupyter notebook
 # Install packages
 After completing the environment setup, run each of the commands below in your environment\
 **Shell**
+```
 CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python
 pip install openai langchain langchain-community
+```
 **Jupyter Notebook**
+```
 !CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python
 !pip install openai langchain langchain-community
+```
 
 # Build llama.cpp framework
 Clone the llama.cpp repository and build (or run [llama_cpp_setup.sh](llama_cpp_setup.sh))\
