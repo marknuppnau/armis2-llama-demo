@@ -11,7 +11,7 @@ This repository contains the documentation and code used in the generative AI tu
 * Follow the instructions in [environment setup](env-setup.md)
 
 # Run
-Either start from scratch and follow the steps below or use the jupyter notebook
+Either start from scratch and follow the steps below (GPU access required) or use the ##INSERT NOTEBOOK HERE##
 
 # Install packages
 After completing the environment setup, run each of the commands below in your environment\
