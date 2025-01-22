@@ -11,7 +11,7 @@
    - Number of cores - **40**
    - Memory (GB) - **40**
    - Number of GPUs - **1**
-   - Module commands - **load gcc/10.3.0 cuda/11.8.0 cudnn/11.8-v8.7.0**
+   - Module commands - **load gcc cuda cudnn**
 4. Click **Launch**
 
 ## VS Code (intermediate)
