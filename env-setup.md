@@ -6,7 +6,7 @@
 3. Populate the following fields:
    - Python distribution - **mamba/py3.10**
    - Slurm account - can be project specific or **precisionhealth_owned1** if eligible
-   - Partition - **gpu**
+   - Partition - **gpu** or **precisionhealth** if eligible
    - Number of hours - **6**
    - Number of cores - **40**
    - Memory (GB) - **40**
