@@ -80,7 +80,7 @@ cd ..
 ```
 # Demo1: OpenAI API Framework
 * Follow the instructions in [OpenAI demo](openai-demo.md)
-* 
+
 # Demo2: Langchain Framework
 * Follow the instructions in [langchain demo](langchain-demo.md)
 
